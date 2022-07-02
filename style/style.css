@@ -52,3 +52,10 @@ li:before {
 .separator {
   padding-top: 70px;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+}
