@@ -111,7 +111,7 @@ aprendiendo.
 
 ---
 
-- #### Licenciatura en Ciencias de la Computación, en la facultad de Matematicas y Computacion (Matcom) de la Universidad de la Habana, Sept 2017 - Actualidad
+- #### Licenciatura en Ciencias de la Computación, en la facultad de Matemáticas y Computación (Matcom) de la Universidad de la Habana, Sept 2017 - Actualidad
 - #### [GO Sololearn Course Certificate](https://www.sololearn.com/certificates/course/en/26428904/1164/landscape/png)
 
 # Experience
@@ -126,27 +126,36 @@ desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comerc
 
 - ### GDS de Turismo Unificado, Módulo de Gestión de Marinas Náuticas
 
+  <!--
+  a
   - Registro y control de las embarcaciones y tripulantes que arriva a la marina
   - Gestión y comercialización de alquileres de espacios físicos finitos, durante el tiempo
-  - Gestión y control de multiples tarifas según el conjunto de servicios contratados y las fechas reservadas
+  - Gestión y control de multiples tarifas según el conjunto de servicios contratados y las fechas reservadas -->
+
   - Role: **NestJS Backend Developer**
   - Tegnologías: **NestJS**, **TypeOrm**, **MySql**.
 
 - ### ERP Restaurantes Palmares, Módulo de Gestión de Almacenamiento y Contabilidad
 
+  <!--
+  a
   - Registro de las entidades comerciales y sus respectivas jerarquicas de almacenamiento
   - Gestión y control de los distintos movimientos de almacen, entre entidades o internas en las misma
   - Diseño de la Base de Datos **Orientado a Eventos** para evitar condiciones de carreras en la actualizacion de Stocks
   - Documentación finaciera de los costes y beneficios de los distintos movimientos, generando el **Libro Mayor** para cada entidad comercial
-  - Diseño de la Base de Datos **Orientado a Eventos** para evitar condiciones de carreras en la actualizacion de las Cuentas Bancarias
+  - Diseño de la Base de Datos **Orientado a Eventos** para evitar condiciones de carreras en la actualizacion de las Cuentas Bancarias -->
+
   - Role: **NestJS Backend Developer**
-  - Tegnologías: **NestJS**, **TypeOrm**, **MySql**.
+  - Tegnologías: **NestJS**, **TypeOrm**, **MySql**, **DB Event Design**
 
 - ### GDS de Transporte EON (Empresa de Ómnibus Nacionales), Módulo de Gestión de Listas de Esperas
 
+  <!--
+  a
   - Gestión, control y comercialización de las rutas de los omnibus de la empresa
   - Gestión y control del procesos de abordaje de los pasajeros al omnibus
-  - Gestión y control de las modificaciones de las tripulación en cada parada el ómnibus
+  - Gestión y control de las modificaciones de las tripulación en cada parada el ómnibus -->
+
   - Role: **NestJS Backend Developer**
   - Tegnologías: **Express**, **Sequelize**, **MySql**, **Mongoose**, **MongoDB**
 
@@ -164,7 +173,10 @@ desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comerc
 
 - ### Tienda Online, versión Microservicios
 
-  - Sistema Marketplace-like
+  <!--
+  a
+  - Sistema Marketplace-like -->
+
   - Integraciones con pasarelas de pago nacionales e internacionales (Transfermovil, Enzona, Bidaiondo, PeopleGoTo, Sber, ...)
   - Gestión y comersalizacion de los productos según el modelo B2B y B2C
   - Diseño de la Arquitectura de Microservicios (con broker de mensajes)
@@ -174,15 +186,21 @@ desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comerc
 
 - ### Protocolo de Filtros del Sistema GDS de Turismo Unificado, Mecanismo GraphQL-like
 
+  <!--
+  a
   - Diseño de la interface de comunicación API-Front
   - Traducción automática de la interface definida a la sintaxis de consulta para el **QueryBuilder** de **TypeORM**
-  - Mapeo automático de los resultados, para traducciones pos lecturas y checkeos de condiciones de seguridad y lógica de negocio
+  - Mapeo automático de los resultados, para traducciones pos lecturas y checkeos de condiciones de seguridad y lógica de negocio -->
+
   - Role: **Consultant** and **NestJS Backend Developer**
   - Tegnologías: **NestJS**, **TypeOrm**
 
 - ### Estructura de Testing End-To-End del Sistema GDS de Turismo Unificado
 
-  - Diseño de las herramientas y protocolos de desarrollo para facilitar el desarrollo de las pruebas para el resto del equipo
+  <!--
+  a
+  - Diseño de las herramientas y protocolos de desarrollo para facilitar el desarrollo de las pruebas para el resto del equipo -->
+
   - Role: **Consultant** and **NodeJS Backend Developer**
   - Tegnologías: **JestJS**, **Knex**, **MySql**, **AxiosJS**
 
@@ -194,15 +212,22 @@ de escribir un articulo caracterizando al español digital cubano
 
 - ### Minería de Datos de Redes Sociales, Facebook, Twitter, Telegram, CubaDebate y Youtube
 
+  <!--
   - Búsqueda y modificación de herramientas Open Sources para la recolección de los datos [repo's link](https://github.com/cuban-digital-language/data-mining)
   - Creación de **Lexer** custom, basado en spacy, para transformar los datos y reconocer tokens expecificos del español digital [repo's link](https://github.com/cuban-digital-language/tokenizer-digital-language)
-  - Almacenamiento de los datos transformados en documentos con estructuras diseñadas expecificamente para analisis futuros1
+  - Almacenamiento de los datos transformados en documentos con estructuras diseñadas expecificamente para analisis futuros1 -->
+
+  - Búsqueda y modificación de herramientas Open Sources [repo's link](https://github.com/cuban-digital-language/data-mining)
+  - Creación de **Lexer** custom, basado en spacy, para transformar los datos [repo's link](https://github.com/cuban-digital-language/tokenizer-digital-language)
   - Role: **Python Developer**
   - Tegnologías: **Scraper**, **Github**, **Mongo**, **Spacy**.
 
 - ### Sistema de Recuperación de Publicaciones y Comentarios
 
-  - Investigación sobre el módelo más eficiente para la **RI** sobre el corpus minado
+  <!--
+  a
+  - Investigación sobre el módelo más eficiente para la **RI** sobre el corpus minado -->
+
   - Implementación de los módelos Vectorial y Probabilístico
   - Implementación de **Theasaurus** de construcción automática
   - Role: **Python Data Engineer**
@@ -219,9 +244,13 @@ de escribir un articulo caracterizando al español digital cubano
 
 - ### Modelo de Generación de Opinión
 
-  - Proceso de **Model Selection** para decidir entre los enfoques Supervisados y No Supervisados
-  - Implementación de varios pipelines de **RNN**, como representacion de los enfoque supervisado [repo's link](https://github.com/cuban-digital-language/nlp-rnn-text-generator)
-  - Implementación de módelos no supervisado, apoyado en algoritmos probabilísticos (**Cadenas de Markov** y **Procesos de Markov**) [repo's link](https://github.com/cuban-digital-language/nlp-probabilistic-text-generator)
+  <!--
+    - Proceso de **Model Selection** para decidir entre los enfoques Supervisados y No Supervisados
+    - Implementación de varios pipelines de **RNN**, como representacion de los enfoque supervisado [repo's link](https://github.com/cuban-digital-language/nlp-rnn-text-generator)
+    - Implementación de módelos no supervisado, apoyado en algoritmos probabilísticos (**Cadenas de Markov** y **Procesos de Markov**) [repo's link](https://github.com/cuban-digital-language/nlp-probabilistic-text-generator) -->
+
+  - Pipeline **RNN**, enfoque supervisado [repo's link](https://github.com/cuban-digital-language/nlp-rnn-text-generator)
+  - Módelos No Supervisados, apoyado en algoritmos probabilísticos (**Cadenas de Markov** y **Procesos de Markov**) [repo's link](https://github.com/cuban-digital-language/nlp-probabilistic-text-generator)
   - Role: **Python Data Engineer**
   - Tegnologías: **Sklearn**, **Spacy**, **Tensorflow**
 
@@ -237,8 +266,10 @@ de escribir un articulo caracterizando al español digital cubano
 - ### Compilador para el Lenguaje COOL
 
   - Implementación de un compilador que parte del código COOL en texto plano y genera código Mips
+  <!-- 
+  a
   - Implementado bajo las ideologías del patrón **TDD**
-  - Implementación modular por capas, Lexer, Parser, Checkeo Semántico y Generación de Código
+  - Implementación modular por capas, Lexer, Parser, Checkeo Semántico y Generación de Código -->
   - Tegnologías: **Python**
   - GitHub:[repo's link](https://github.com/matcom-school/cool-compiler-2021)
 
