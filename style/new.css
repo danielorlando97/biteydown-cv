@@ -100,10 +100,12 @@ h4 > strong {
     padding-bottom: 0.5%;
     padding-left: 2%;
     padding-right: 2%;
-    /* border-radius: 50%;   */
     width: auto;
 }
 
+strong {
+    margin-left: 0.3em;
+}
 
 h5 {
     margin: 0%;
