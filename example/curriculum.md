@@ -25,7 +25,8 @@
 > - Programming Languages: **JavaScript**, **TypeScript**, **C#**, **Python**, **Haskell**, **Golang**
 > - Functional Programming
 > - Domain Driver Design
-> - Object Oriented Programmins
+> - Test Driver Design
+> - Object Oriented Programming
 > - Version Control Systems: **Git**, **Github** y **Gitlab**
 > - Agile/Scrum Methodology
 > - Project Management
@@ -43,7 +44,7 @@
 > - Orm Frameworks: **TypeOrm**, **Sequelize**, **Moongose**, **Knex**
 > - Microservices Architecture: **Grpc**, **Kafka**
 > - **Docker**, DockerCompose and DockerFiles
-> - Testing Frameworks: **Jet**, **Mocha**
+> - Testing Frameworks: **Jet**, **Mocha**, **PyTest**
 >
 > **Data Scientist Skills**:
 >
@@ -52,7 +53,8 @@
 > - Data Structures and Algorithms
 > - Search Heuristics Algorithms
 > - Keras and **Tensorflow**
-> - **Sklearn**
+> - Data Transform and Model Select by **Sklearn**
+> - Tokenizing by Spacy
 >
 > **FrontEnd Developer Skills**:
 >
@@ -105,88 +107,149 @@ herramientas del sector e investigar sobre nuevos e interesantes problemas.
 A nivel personal, un profesional muy responsable y serio en el trabajo, con facilidad y motivación para seguir
 aprendiendo.
 
-# Experience
-
----
-
-- ### Freelancer y Autodidacta desde Ene 2020 - Ago 2021
-
-  Durante esta época, junto a los estudios universitarios, me interese por
-  el mundo de los patrones de diseño, **Clean**, **DDD**, **CQRS** y **Event Sourcing** y las buenas
-  prácticas en los sectores empresariales lo cual me llevo al estudio de varias tecnologías
-  como **NestJS** y **ReactJS**. Durante este esta etapa realizo algunos desarrollos puntuales como freelancer:
-
-  - Contribuciones puntuales en la empresa [Alimatic](https://alimatic.com) con los desarrollos que realizaban en
-    aquel momento como parte de las practicas laborales de 3re año, tecnologías **ReactJS**, **.Net Core** y **MySQL**.
-
-  - Desarrollo de API de la página oficial del Instituto de Arqueología del Historiador de la Habana, no es más
-    que un catálogo online de las distintas investigaciones y hallazgos del centro, tecnologías **NestJS** y **MySQL**.
-
-- ### NodeJS Backend Developer en _[Guajiritos SRL.](https://www.guajiritos.com)_, Jun 2021 - Jun 2022
-
-  Guajirtos SRL. es la primera MyPyme del Cuba, es una Startup especializada en el
-  desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comercialización
-  **b2b** y **b2c**. Ademas de contar con su propio desarrollo para **Tiendas Onlines**.
-  En la empresa comienzo como **Junior** y en menos de 4 meses se me categoriza como
-  **Semi-Senior**; categoría que mantuve pues preferí pasar a trabajar a tiempo parcial,
-  para compatibilizar trabajo y universidad. En la misma durante un año de trabajo
-  desarrolle varias tareas y roles:
-
-  - Desarrollador principal del módulo de gestión de Marinas Náuticas dentro de **GDS de Turismo Unificado**,
-    tecnologías **NestJS**, **TypeOrm**, **MySql**.
-  - Desarrollo de cancelaciones parciales de reservas pagadas con multi-pasarela y multi-moneda dentro del
-    **GDS de Transporte EON (Empresa de Ómnibus Nacionales)**, tecnologías **ExpressJS**, **Sequelize**, **MySql**
-    y **Mongodb**.
-
-  - Consultante y Desarrollador de la arquitectura de **Microservicios** para la segunda version de la **Tienda Online**,
-    tecnologías **NestJS**, **TypeOrm**, **PostgresQL**, **Grpc** y **Kafka**.
-
-  - Maintainer y Desarrollador principal del **Sistema de Gestión de Experiencias y Circuitos**, que forma parte de la
-    lista de servicios que la empresa le brinda al sector del turismos y otras esferas de la economía pues el sistema
-    básicamente es un software de gestión y venta online de eventos de cualquier índole. Tecnologías **ExpressJS**,
-    **Sequelize**, **MySql** y **Mongodb**. Como desarrollador principal de este sistema, además de subsanar varios
-    errores detectados en el sistema, desarrollar varias peticiones de los distintos clientes y distintas funcionalidades
-    nuevas, un desarrollo señalable es la **integración esta API consigo misma**, para que distintos despliegues de la misma
-    puedan intercambiar datos y trabajar en conjunto.
-
-  - Consultante Principal y Desarrollador de los mecanismo de **Testing End-To-End** del sistema **GDS de Turismo Unificado**,
-    tecnologías **Jet**, **Axios** y **Knex**.
-
-  - Consultante y Desarrollador del protocolo de filtros del sistema **GDS de Turismo Unificado**, se necesitaba crear un
-    mecanismo **GraphQL-like** para exponer el API y tener controles de seguridad y lógica de negocio. Tecnologías **TypeScript**,
-    **NestJS** y **TypeOrm**.
-
-- ### Python Data Engineer en [PostdataClub](http://www.postdata.club), Ene 2022 - Actualidad
-
-  PostdataClub es un sitio de periodismo de datos de la facultad de Matemática y Computación, de la Universidad de la Habana que
-  cada año lleva a cabo un taller interactivo para la producción de varios articulo nuevos. Como parte de este taller surge la idea
-  de escribir un articulo caracterizando al español digital cubano, razón por la que creo la organización de Github
-  [Cuban Digital Language](https://github.com/cuban-digital-language) y desarrollo el siguiente grupo de investigaciones:
-
-  - Minería de Datos de las distintas redes sociales, Facebook, Twitter, Telegram, CubaDebate y Youtube. Para este trabajo se emplearon
-    códigos open source en github de terceros, muchos de ellos fueron forkeado por la organización.
-    [Repo de GitHub con los resultados](https://github.com/cuban-digital-language/data-mining).
-
-  - Desarrollo de varios Modelos de Recuperación de Información, para realizar búsqueda en lenguaje natural sobre el corpus de datos minados.
-    Como resultado de esta investigación se desarrollaron dos modelos clásicos de la **RI** y dos thesaurus automáticos. Para la
-    vectorización y procesamiento de los documentos se usaron librerías de Python com **sklearn** y **spacy**. [Repo de GitHub con las implementaciones](https://github.com/cuban-digital-language/Models-for-Information-Retrieval).
-
-  - Investigación para encontrar algún mecanismo automático para evaluar el rendimiento de los modelos de recuperación ya desarrollados. Dicha investigación consto de dos partes, una inicial para definir la mejor manera realizar una vectorizarcion semántica de los documentos donde se intento aplicar, entre otros enfoque, una arquitectura de **AutoEncoder**, [Repo de GitHub con el desarrollo de dicha arquitectura](https://github.com/cuban-digital-language/corpus-cluster-by-autoencode). Y una segunda parte donde con la vectorización seleccionada se intentó detectar alguna estructura dentro del dataset, [Repo de GitHub donde se desarrollo esta segunda etapa](https://github.com/cuban-digital-language/corpus-cluster-by-autoencode). Para toda esta investigación se emplearon las librerías de Python **sklearn**, **spacy** y **tensorflow**.
-
-  - Investigación para desarrollar un generador de textos en lenguaje natural y que los textos resultantes tuvieran un estilo similar al de la comunidad digital cubana. Para esta tarea se investigaron dos enfoques, redes neuronales recurrentes ([Repo de GitHub con las distintas arquitecturas probadas](https://github.com/cuban-digital-language/nlp-rnn-text-generator)) y un enfoque no supervisado con técnicas probabilísticas como cadenas y procesos de Markov ([Repo de GitHub con el desarrollo final de este enfoque](https://github.com/cuban-digital-language/nlp-probabilistic-text-generator)). Para toda esta investigación se emplearon las librerías de Python **sklearn**, **spacy** y **tensorflow**.
-
 # Education
 
 ---
 
 - #### Licenciatura en Ciencias de la Computación, en la facultad de Matematicas y Computacion (Matcom) de la Universidad de la Habana, Sept 2017 - Actualidad
+- #### [GO Sololearn Course Certificate](https://www.sololearn.com/certificates/course/en/26428904/1164/landscape/png)
 
-## Proyectos Personales y Académicos Interesantes
+# Experience
 
 ---
 
-- Normalmente prefiero tener las dependencias y servidores dokerizados y he ido acumulando **Dockerfiles** y **DockerComposes** a lo largo del trabajo. [Los guardo en este repo de GitHub](https://github.com/danielorlando97/docker-files)
-- En mi experiencia como desarrollador de node he detectado algunos problemas solucionables. Para ellos cree un [organización en GitHub](https://github.com/packages-ts-js) donde cuando puedo le dedico tiempo a estas soluciones. Entre dichos problemas se encuentra la integración de **NestJS** con el patrón **Unit of Work** y la aucencia de operaciones **lazy** en los patrones funcionales de **JavaScript**
-- Como parte de la asignatura de compilacion de la carrera desarrolle un compilador del lenguaje **COOL** con todas sus faces desde la tokenización hasta la generación de codigo **MIPS**. Dicho desarrollo fue en lenguaje **Python** y siguiendo el patron **TDD**. [Repo del compilador](https://github.com/matcom-school/cool-compiler-2021)
-- Como parte de la asignatura de sistamas distribuidos de la carrera desarrolle una arquitectura **Chord** para la comunicación de multiples servidores. [Repo del desarrollo](https://github.com/matcom-school/distributed-scrapper-chord-4to)
-- Como parte de la asignatura de redes de computadoras de la carrera desarrolle el protocolo tcp de la capa de aplicación, para asegurar la consistencia de la comunicación en un medio inseguro. [Repo del desarrollo](https://github.com/matcom-school/network-proyect-3ro)
+## NodeJS Backend Developer en _[Guajiritos SRL.](https://www.guajiritos.com)_, Jun 2021 - Jun 2022
+
+Guajirtos SRL. es la primera MyPyme del Cuba, es una Startup especializada en el
+desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comercialización
+**b2b** y **b2c**. Proyectos:
+
+- ### GDS de Turismo Unificado, Módulo de Gestión de Marinas Náuticas
+
+  - Registro y control de las embarcaciones y tripulantes que arriva a la marina
+  - Gestión y comercialización de alquileres de espacios físicos finitos, durante el tiempo
+  - Gestión y control de multiples tarifas según el conjunto de servicios contratados y las fechas reservadas
+  - Role: **NestJS Backend Developer**
+  - Tegnologías: **NestJS**, **TypeOrm**, **MySql**.
+
+- ### ERP Restaurantes Palmares, Módulo de Gestión de Almacenamiento y Contabilidad
+
+  - Registro de las entidades comerciales y sus respectivas jerarquicas de almacenamiento
+  - Gestión y control de los distintos movimientos de almacen, entre entidades o internas en las misma
+  - Diseño de la Base de Datos **Orientado a Eventos** para evitar condiciones de carreras en la actualizacion de Stocks
+  - Documentación finaciera de los costes y beneficios de los distintos movimientos, generando el **Libro Mayor** para cada entidad comercial
+  - Diseño de la Base de Datos **Orientado a Eventos** para evitar condiciones de carreras en la actualizacion de las Cuentas Bancarias
+  - Role: **NestJS Backend Developer**
+  - Tegnologías: **NestJS**, **TypeOrm**, **MySql**.
+
+- ### GDS de Transporte EON (Empresa de Ómnibus Nacionales), Módulo de Gestión de Listas de Esperas
+
+  - Gestión, control y comercialización de las rutas de los omnibus de la empresa
+  - Gestión y control del procesos de abordaje de los pasajeros al omnibus
+  - Gestión y control de las modificaciones de las tripulación en cada parada el ómnibus
+  - Role: **NestJS Backend Developer**
+  - Tegnologías: **Express**, **Sequelize**, **MySql**, **Mongoose**, **MongoDB**
+
+- ### GDS de Turismo, Sistema de Gestión de Experiencias y Circuitos
+
+  - Gestión y reserva online de entradas para eventos (con una fecha y duración determinada)
+  - Gestión y comersalizacion de los eventos según el modelo B2B y B2C
+  - Integraciones con pasarelas de pago nacionales e internacionales (Transfermovil, Enzona, Bidaiondo, PeopleGoTo, Sber, ...)
+  - Sincronización de base de datos, **MongoDB** (para lecturas complejas) y **MySql** (de uso general)
+  - Implementación del módulo de reportería con visualización online y descargas en excel y pdf
+  - Integración y sincronización entre las distintas instancias del mismo sistema
+  - Organización del equipo y del trabajo siguiendo la metodología **Scrum**
+  - Role: **Team Lider**, **Principal Manteiner** and **NodeJS Backend Developer**
+  - Tegnologías: **Express**, **Sequelize**, **MySql**, **Mongoose**, **MongoDB**
+
+- ### Tienda Online, versión Microservicios
+
+  - Sistema Marketplace-like
+  - Integraciones con pasarelas de pago nacionales e internacionales (Transfermovil, Enzona, Bidaiondo, PeopleGoTo, Sber, ...)
+  - Gestión y comersalizacion de los productos según el modelo B2B y B2C
+  - Diseño de la Arquitectura de Microservicios (con broker de mensajes)
+  - Diseño del protocolo de comunicación de los Microservicios, siguiendo la ideología **Trust Zero**
+  - Role: **Consultant** and **NestJS Backend Developer**
+  - Tegnologías: **NestJS**, **TypeOrm**, **PostgresQL**, **Grpc** y **Kafka**.
+
+- ### Protocolo de Filtros del Sistema GDS de Turismo Unificado, Mecanismo GraphQL-like
+
+  - Diseño de la interface de comunicación API-Front
+  - Traducción automática de la interface definida a la sintaxis de consulta para el **QueryBuilder** de **TypeORM**
+  - Mapeo automático de los resultados, para traducciones pos lecturas y checkeos de condiciones de seguridad y lógica de negocio
+  - Role: **Consultant** and **NestJS Backend Developer**
+  - Tegnologías: **NestJS**, **TypeOrm**
+
+- ### Estructura de Testing End-To-End del Sistema GDS de Turismo Unificado
+
+  - Diseño de las herramientas y protocolos de desarrollo para facilitar el desarrollo de las pruebas para el resto del equipo
+  - Role: **Consultant** and **NodeJS Backend Developer**
+  - Tegnologías: **JestJS**, **Knex**, **MySql**, **AxiosJS**
+
+## Python Data Engineer en [PostdataClub](http://www.postdata.club), Ene 2022 - Actualidad
+
+PostdataClub es un sitio de periodismo de datos de la facultad de Matemática y Computación, de la Universidad de la Habana que
+cada año lleva a cabo un taller interactivo para la producción de varios articulo nuevos. Como parte de este taller surge la idea
+de escribir un articulo caracterizando al español digital cubano
+
+- ### Minería de Datos de Redes Sociales, Facebook, Twitter, Telegram, CubaDebate y Youtube
+
+  - Búsqueda y modificación de herramientas Open Sources para la recolección de los datos [repo's link](https://github.com/cuban-digital-language/data-mining)
+  - Creación de **Lexer** custom, basado en spacy, para transformar los datos y reconocer tokens expecificos del español digital [repo's link](https://github.com/cuban-digital-language/tokenizer-digital-language)
+  - Almacenamiento de los datos transformados en documentos con estructuras diseñadas expecificamente para analisis futuros1
+  - Role: **Python Developer**
+  - Tegnologías: **Scraper**, **Github**, **Mongo**, **Spacy**.
+
+- ### Sistema de Recuperación de Publicaciones y Comentarios
+
+  - Investigación sobre el módelo más eficiente para la **RI** sobre el corpus minado
+  - Implementación de los módelos Vectorial y Probabilístico
+  - Implementación de **Theasaurus** de construcción automática
+  - Role: **Python Data Engineer**
+  - Tegnologías: **Sklearn**, **Numpy**, **Spacy**
+  - GitHub: [repo's link](https://github.com/cuban-digital-language/Models-for-Information-Retrieval)
+
+- ### Modelo de Clustering Semántico
+
+  - Transformación del corpus al espacio vectorial mediante **Embeddings** [repo's link](https://github.com/cuban-digital-language/corpus-cluster-by-autoencode)
+  - Proceso de **Model Selection**, intentando encontrar alguna estructura en los datos [repo's link](https://github.com/cuban-digital-language/content-detection-and-corpus-clustering)
+  - Visualización de los resultados de cada módelo, aplicando reducción de dimensiones y usando **Matplotlib**
+  - Role: **Python Data Engineer**
+  - Tegnologías: **Sklearn**, **Spacy**, **Tensorflow**, **Matplotlib**
+
+- ### Modelo de Generación de Opinión
+
+  - Proceso de **Model Selection** para decidir entre los enfoques Supervisados y No Supervisados
+  - Implementación de varios pipelines de **RNN**, como representacion de los enfoque supervisado [repo's link](https://github.com/cuban-digital-language/nlp-rnn-text-generator)
+  - Implementación de módelos no supervisado, apoyado en algoritmos probabilísticos (**Cadenas de Markov** y **Procesos de Markov**) [repo's link](https://github.com/cuban-digital-language/nlp-probabilistic-text-generator)
+  - Role: **Python Data Engineer**
+  - Tegnologías: **Sklearn**, **Spacy**, **Tensorflow**
+
+---
+
+## Proyectos Personales y Académicos Interesantes
+
+- ### Docker Files
+
+  - Colección de DockerFiles y DockerCompose, desarrollados o usados en algún momento
+  - GitHub: [repo's link](https://github.com/danielorlando97/docker-files)
+
+- ### Compilador para el Lenguaje COOL
+
+  - Implementación de un compilador que parte del código COOL en texto plano y genera código Mips
+  - Implementado bajo las ideologías del patrón **TDD**
+  - Implementación modular por capas, Lexer, Parser, Checkeo Semántico y Generación de Código
+  - Tegnologías: **Python**
+  - GitHub:[repo's link](https://github.com/matcom-school/cool-compiler-2021)
+
+- ### Scraper Distribuido, Chord-like
+
+  - Implementación del protocolo de comunicación distribuido **Chord**
+  - Tegnologías: **Python**, **ZMQ**, **Pyro**, **BeautifulSoup**
+  - GitHub:[repo's link](https://github.com/matcom-school/distributed-scrapper-chord-4to)
+
+- ### Python TCP Implementation
+
+  - Implementación del protocolo TCP sobre una capa de transporte insegura
+  - Tegnologías: **Python**, **Socket**
+  - GitHub:[repo's link](https://github.com/matcom-school/network-proyect-3ro)
