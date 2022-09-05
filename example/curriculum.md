@@ -128,18 +128,18 @@ desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comerc
 
   - Sistema de gestión y control del alquiler de espacios fisicos finitos
   - Role: **NestJS Backend Developer**
-  - Tegnologías: **NestJS**, **TypeOrm**, **MySql**.
+  - Tecnologías: **NestJS**, **TypeOrm**, **MySql**.
 
 - ### ERP Restaurantes Palmares, Módulo de Gestión de Almacenamiento y Contabilidad
 
   - Role: **NestJS Backend Developer**
-  - Tegnologías: **NestJS**, **TypeOrm**, **MySql**, **DB Event Design**
+  - Tecnologías: **NestJS**, **TypeOrm**, **MySql**, **DB Event Design**
 
 - ### GDS de Transporte EON (Empresa de Ómnibus Nacionales), Módulo de Gestión de Listas de Esperas
 
   - Sistema de gestion y control de la comercialización de las rutas y flota de ómnibus de la empresa
   - Role: **FullStack Backend Developer**
-  - Tegnologías: **ExpressJS**, **Sequelize**, **MySql**, **Mongoose**, **MongoDB**, **AngularJS**
+  - Tecnologías: **ExpressJS**, **Sequelize**, **MySql**, **Mongoose**, **MongoDB**, **AngularJS**
 
 - ### GDS de Turismo, Sistema de Gestión de Experiencias y Circuitos
 
@@ -151,7 +151,7 @@ desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comerc
   - Integración y sincronización entre las distintas instancias del mismo sistema
   - Organización del equipo y del trabajo siguiendo la metodología **Ágiles/Scrum**
   - Role: **Team Lider**, **Principal Manteiner** and **NodeJS Backend Developer**
-  - Tegnologías: **Express**, **Sequelize**, **MySql**, **Mongoose**, **MongoDB**, **Notion**, **ClickUp**
+  - Tecnologías: **Express**, **Sequelize**, **MySql**, **Mongoose**, **MongoDB**, **Notion**, **ClickUp**
 
 - ### Tienda Online, versión Microservicios
 
@@ -160,17 +160,17 @@ desarrollos **SaaS** de sistemas de gestión empresariales, de negocios y comerc
   - Diseño de la Arquitectura de Microservicios (con broker de mensajes)
   - Diseño del protocolo de comunicación de los Microservicios, siguiendo la ideología **Trust Zero**
   - Role: **Consultant** and **NestJS Backend Developer**
-  - Tegnologías: **NestJS**, **TypeOrm**, **PostgresQL**, **Grpc** y **Kafka**.
+  - Tecnologías: **NestJS**, **TypeOrm**, **PostgresQL**, **Grpc** y **Kafka**.
 
 - ### Protocolo de Filtros del Sistema GDS de Turismo Unificado, Mecanismo GraphQL-like
 
   - Role: **Consultant** and **NestJS Backend Developer**
-  - Tegnologías: **NestJS**, **TypeOrm**
+  - Tecnologías: **NestJS**, **TypeOrm**
 
 - ### Estructura de Testing End-To-End del Sistema GDS de Turismo Unificado
 
   - Role: **Consultant** and **NodeJS Backend Developer**
-  - Tegnologías: **JestJS**, **Knex**, **MySql**, **AxiosJS**
+  - Tecnologías: **JestJS**, **Knex**, **MySql**, **AxiosJS**
 
 ## Python Data Engineer en [PostdataClub](http://www.postdata.club), Ene 2022 - Ago 2022
 
@@ -183,14 +183,14 @@ de escribir un articulo caracterizando al español digital cubano
   - Búsqueda y modificación de herramientas Open Sources para la recolección de los datos - [repo's link](https://github.com/cuban-digital-language/data-mining)
   - Creación de **Lexer** custom, basado en spacy, para transformar los datos - [repo's link](https://github.com/cuban-digital-language/tokenizer-digital-language)
   - Role: **Python Developer**
-  - Tegnologías: **Scraper**, **Github**, **Mongo**, **Spacy**.
+  - Tecnologías: **Scraper**, **Github**, **Mongo**, **Spacy**.
 
 - ### Sistema de Recuperación de Publicaciones y Comentarios
 
   - Implementación de los módelos Vectorial y Probabilístico
   - Implementación de **Theasaurus** de construcción automática
   - Role: **Python Data Engineer**
-  - Tegnologías: **Sklearn**, **Numpy**, **Spacy**
+  - Tecnologías: **Sklearn**, **Numpy**, **Spacy**
   - GitHub: [repo's link](https://github.com/cuban-digital-language/Models-for-Information-Retrieval)
 
 - ### Modelo de Clustering Semántico
@@ -199,14 +199,14 @@ de escribir un articulo caracterizando al español digital cubano
   - Proceso de **Model Selection**, intentando encontrar alguna estructura en los datos - [repo's link](https://github.com/cuban-digital-language/content-detection-and-corpus-clustering)
   - Visualización de los resultados de cada módelo, aplicando reducción de dimensiones y usando **Matplotlib**
   - Role: **Python Data Engineer**
-  - Tegnologías: **Sklearn**, **Spacy**, **Tensorflow**, **Matplotlib**
+  - Tecnologías: **Sklearn**, **Spacy**, **Tensorflow**, **Matplotlib**
 
 - ### Modelo de Generación de Opinión
 
   - Pipeline **RNN**, enfoque supervisado - [repo's link](https://github.com/cuban-digital-language/nlp-rnn-text-generator)
   - Módelos No Supervisados, apoyado en algoritmos probabilísticos (**Cadenas de Markov** y **Procesos de Markov**) - [repo's link](https://github.com/cuban-digital-language/nlp-probabilistic-text-generator)
   - Role: **Python Data Engineer**
-  - Tegnologías: **Sklearn**, **Spacy**, **Tensorflow**
+  - Tecnologías: **Sklearn**, **Spacy**, **Tensorflow**
 
 ## Proyectos Personales y Académicos Interesantes
 
@@ -218,24 +218,24 @@ de escribir un articulo caracterizando al español digital cubano
 - ### Compilador para el Lenguaje COOL
 
   - Implementación de un compilador que parte del código COOL en texto plano y genera código Mips
-  - Tegnologías: **Python**
+  - Tecnologías: **Python**
   - GitHub:[repo's link](https://github.com/matcom-school/cool-compiler-2021)
 
 - ### Scraper Distribuido, Chord-like
 
   - Implementación del protocolo de comunicación distribuido **Chord**
-  - Tegnologías: **Python**, **ZMQ**, **Pyro**, **BeautifulSoup**
+  - Tecnologías: **Python**, **ZMQ**, **Pyro**, **BeautifulSoup**
   - GitHub:[repo's link](https://github.com/matcom-school/distributed-scrapper-chord-4to)
 
 - ### Python TCP Implementation
 
   - Implementación del protocolo TCP sobre una capa de transporte insegura
-  - Tegnologías: **Python**, **Socket**
+  - Tecnologías: **Python**, **Socket**
   - GitHub:[repo's link](https://github.com/matcom-school/network-proyect-3ro)
 
 - ### Hyperledger Fabric DApp, Sistema de Gestión de Archivos
   - Implementación de **Smart Contract**
   - Implementacioón de un API que expone el sistema
-  - Tegnologías: **Go**, **IrisGo**, **Go Fabric's SDK**, **Swagger**, **CouchDB**, **Blockchain HL Fabric**
+  - Tecnologías: **Go**, **IrisGo**, **Go Fabric's SDK**, **Swagger**, **CouchDB**, **Blockchain HL Fabric**
   - Smart Contract Repo: [repo's link](https://github.com/matcom-school/test-network-optativo-nanobash)
   - DApp Repo: [repo's link](https://github.com/matcom-school/api.dapp)
