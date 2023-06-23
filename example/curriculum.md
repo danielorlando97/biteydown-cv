@@ -235,7 +235,7 @@ de escribir un articulo caracterizando al español digital cubano
 
 - ### Hyperledger Fabric DApp, Sistema de Gestión de Archivos
   - Implementación de **Smart Contract**
-  - Implementacioón de un API que expone el sistema
+  - Implementación de un API que expone el sistema
   - Tecnologías: **Go**, **IrisGo**, **Go Fabric's SDK**, **Swagger**, **CouchDB**, **Blockchain HL Fabric**
   - Smart Contract Repo: [repo's link](https://github.com/matcom-school/test-network-optativo-nanobash)
   - DApp Repo: [repo's link](https://github.com/matcom-school/api.dapp)
